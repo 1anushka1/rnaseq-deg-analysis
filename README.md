@@ -10,7 +10,6 @@ SNAI1 is a transcription factor that drives epithelial-mesenchymal transition (E
 - **Differential expression**: DESeq2 (padj < 0.05, |log2FC| > 1)
 - **Visualization**: MA plot, Volcano plot (EnhancedVolcano)
 - **Functional enrichment**: Gene Ontology (Biological Process) and KEGG pathway analysis via ClusterProfiler
-- **Validation**: Expression patterns of EMT marker genes (CDH1, VIM, FN1, CDH2, EPCAM) confirmed expected directional changes
 
 ## Tools & Libraries
 R, DESeq2, ClusterProfiler, EnhancedVolcano, org.Hs.eg.db, enrichplot, ggplot2
